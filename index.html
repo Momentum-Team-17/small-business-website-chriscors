@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
 </head>
 <body>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="in-stock.html">In Stock</a>
+            <a href="info.html">Info</a>
+    </div>
+    
+    <!-- Use any element to open the sidenav -->
+    <button onclick="openNav()">open</button>
     <!-- Name -->
     <h1>Lazy River Nursery and Garden Supply</h1>
 
     <!-- Image -->
     <img src="starter_files/images/store-interior.jpg" alt="Picture of store-interior">
 
-    <!-- Nav Bar -->
-    <nav>
-        <!-- Links list to pages -->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="in-stock.html">In Stock</a></li>
-            <li><a href="info.html">Info</a></li>
-        </ul>
-    </nav>
+
     <div>
         <p>Lazy River Nursery and Garden Supply has been serving the garden needs of the Tri-State area since 1976. We have
         supplies for everyone from the small hobby gardener to landscaping contractors.</p>
