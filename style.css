@@ -61,3 +61,9 @@
         font-size: 18px;
     }
 }
+
+.smallimg {
+    height:30px;
+    width: 30px;
+    cursor: pointer;
+}
